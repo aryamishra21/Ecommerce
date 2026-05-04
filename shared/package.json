@@ -1,0 +1,20 @@
+{
+  "name": "shared",
+  "version": "1.0.1",
+  "description": "",
+  "license": "ISC",
+  "author": "Arya Mishra",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "private": false,
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  }
+}
